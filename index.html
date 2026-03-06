@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>The Peacock Conspiracy - Project Index</title>
+<style>
+  :root { --bg: #0a0a0f; --card: #13131f; --accent: #4f8cff; --accent2: #ff6b4f; --text: #e0e0e8; --dim: #8888aa; --border: #2a2a3f; --green: #4caf50; --gold: #ffd700; }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body { font-family: 'Segoe UI', system-ui, sans-serif; background: var(--bg); color: var(--text); line-height: 1.7; }
+  .header { background: linear-gradient(135deg, #0d1117 0%, #161b22 50%, #1a1025 100%); padding: 60px 40px; text-align: center; border-bottom: 2px solid var(--gold); }
+  .header h1 { font-size: 3em; color: var(--gold); text-shadow: 0 0 30px rgba(255,215,0,0.3); letter-spacing: 3px; }
+  .header .subtitle { color: var(--accent); font-size: 1.3em; margin-top: 10px; }
+  .header .meta { color: var(--dim); margin-top: 15px; font-size: 0.95em; }
+  .container { max-width: 1200px; margin: 0 auto; padding: 40px; }
+  section { margin-bottom: 50px; }
+  section h2 { font-size: 1.8em; color: var(--gold); border-left: 4px solid var(--accent); padding-left: 20px; margin-bottom: 20px; }
+  .card-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(340px, 1fr)); gap: 20px; }
+  .card { background: var(--card); border: 1px solid var(--border); border-radius: 12px; padding: 25px; transition: border-color 0.2s, transform 0.2s; }
+  .card:hover { border-color: var(--accent); transform: translateY(-2px); }
+  .card h3 { color: var(--accent); margin-bottom: 8px; }
+  .card p { color: var(--dim); font-size: 0.95em; margin-bottom: 12px; }
+  .card a { display: inline-block; padding: 6px 16px; background: rgba(79,140,255,0.15); border: 1px solid var(--accent); border-radius: 8px; color: var(--accent); text-decoration: none; font-size: 0.85em; margin-top: 5px; transition: background 0.2s; }
+  .card a:hover { background: var(--accent); color: #fff; }
+  .tag { display: inline-block; padding: 2px 10px; border-radius: 10px; font-size: 0.75em; margin: 2px 4px 2px 0; }
+  .tag-research { background: rgba(76,175,80,0.2); color: var(--green); border: 1px solid var(--green); }
+  .tag-draft { background: rgba(79,140,255,0.2); color: var(--accent); border: 1px solid var(--accent); }
+  .tag-critique { background: rgba(255,107,79,0.2); color: var(--accent2); border: 1px solid var(--accent2); }
+  .tag-super { background: rgba(255,215,0,0.2); color: var(--gold); border: 1px solid var(--gold); }
+  .tag-final { background: rgba(255,215,0,0.3); color: var(--gold); border: 2px solid var(--gold); font-weight: bold; }
+  .status { display: inline-block; padding: 3px 10px; border-radius: 6px; font-size: 0.8em; font-weight: bold; margin-left: 10px; }
+  .status-done { background: rgba(76,175,80,0.2); color: var(--green); }
+  .status-wip { background: rgba(255,215,0,0.2); color: var(--gold); }
+  .status-pending { background: rgba(136,136,170,0.2); color: var(--dim); }
+  .progress { margin: 30px 0; }
+  .progress-bar { background: var(--card); border: 1px solid var(--border); border-radius: 10px; height: 30px; overflow: hidden; position: relative; }
+  .progress-fill { height: 100%; border-radius: 10px; transition: width 0.5s; display: flex; align-items: center; justify-content: center; font-size: 0.85em; font-weight: bold; }
+  .iter-header { display: flex; align-items: center; justify-content: space-between; margin-bottom: 15px; }
+  footer { text-align: center; padding: 30px; color: var(--dim); border-top: 1px solid var(--border); margin-top: 40px; }
+</style>
+</head>
+<body>
+
+<div class="header">
+  <h1>THE PEACOCK CONSPIRACY</h1>
+  <div class="subtitle">Novel Development - Master Index</div>
+  <div class="meta">A mystery novel set in mid-1990s Los Angeles | Iterative development process</div>
+</div>
+
+<div class="container">
+
+<!-- PROGRESS -->
+<section>
+  <h2>PROJECT PROGRESS</h2>
+  <div class="progress">
+    <div class="progress-bar">
+      <div class="progress-fill" style="width: 100%; background: linear-gradient(90deg, var(--accent), var(--gold));">
+        100% COMPLETE - All 3 Iterations + Final Deliverable
+      </div>
+    </div>
+  </div>
+  <div class="card-grid" style="grid-template-columns: repeat(5, 1fr);">
+    <div class="card" style="text-align:center;padding:15px;">
+      <div style="font-size:1.5em;color:var(--green);">&#10003;</div>
+      <div style="font-size:0.85em;color:var(--green);">Research</div>
+    </div>
+    <div class="card" style="text-align:center;padding:15px;">
+      <div style="font-size:1.5em;color:var(--green);">&#10003;</div>
+      <div style="font-size:0.85em;color:var(--green);">Iteration 1</div>
+    </div>
+    <div class="card" style="text-align:center;padding:15px;">
+      <div style="font-size:1.5em;color:var(--green);">&#10003;</div>
+      <div style="font-size:0.85em;color:var(--green);">Iteration 2</div>
+    </div>
+    <div class="card" style="text-align:center;padding:15px;">
+      <div style="font-size:1.5em;color:var(--green);">&#10003;</div>
+      <div style="font-size:0.85em;color:var(--green);">Iteration 3</div>
+    </div>
+    <div class="card" style="text-align:center;padding:15px;">
+      <div style="font-size:1.5em;color:var(--green);">&#10003;</div>
+      <div style="font-size:0.85em;color:var(--green);">Final</div>
+    </div>
+  </div>
+</section>
+
+<!-- FOUNDATION -->
+<section>
+  <h2>FOUNDATION</h2>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Novel Brief / Prompt</h3>
+      <p>The original creative brief defining the novel's premise, characters, themes, structure, and tone requirements.</p>
+      <span class="tag tag-research">Foundation</span>
+      <br><a href="prompt.md.txt">View Prompt</a>
+    </div>
+    <div class="card">
+      <h3>Research Catalog</h3>
+      <p>300+ facts across 18 categories. OJ trial, Olympics, bombing, Must-See TV, Friends phenomenon, Fox News, KNBC, USC, Disneyland, quirky stories, and more.</p>
+      <span class="tag tag-research">Research</span>
+      <br><a href="research/research_catalog.html">View Research Catalog</a>
+    </div>
+  </div>
+</section>
+
+<!-- ITERATION 1 -->
+<section>
+  <div class="iter-header">
+    <h2>ITERATION 1: Three Parallel Drafts</h2>
+    <span class="status status-done">COMPLETE</span>
+  </div>
+  <p style="color:var(--dim);margin-bottom:20px;">Three fundamentally different approaches to the same novel, each emphasizing different strengths. Then critiqued and synthesized.</p>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Draft A: Thriller Approach</h3>
+      <p>Crichton pacing, Winslow realism, Grisham conspiracy mechanics. 27 chapters. Propulsive clue-per-chapter structure. Concrete evidence chain with camera logs, emails, and a fired security consultant.</p>
+      <span class="tag tag-draft">Draft</span> <span class="tag tag-draft">Thriller</span>
+      <br><a href="iterations/iter1/draft_a_thriller.md">View Draft A</a>
+    </div>
+    <div class="card">
+      <h3>Draft B: Literary Approach</h3>
+      <p>Deep character work, thematic richness, melancholy retrospective voice. Unnamed narrator until final page. Castle Heraldry Shoppe as central metaphor. "The Rachel" as proof of media power. Fictional family crest epilogue.</p>
+      <span class="tag tag-draft">Draft</span> <span class="tag tag-draft">Literary</span>
+      <br><a href="iterations/iter1/draft_b_literary.md">View Draft B</a>
+    </div>
+    <div class="card">
+      <h3>Draft C: Journalism Approach</h3>
+      <p>Each chapter = a lesson about how TV news works + narrative events. 22 journalism insights. "It's not a conspiracy. It's a system." Systemic corruption thesis. Most technically accurate about newsroom mechanics.</p>
+      <span class="tag tag-draft">Draft</span> <span class="tag tag-draft">Journalism</span>
+      <br><a href="iterations/iter1/draft_c_journalism.md">View Draft C</a>
+    </div>
+    <div class="card">
+      <h3>Iteration 1 Critique</h3>
+      <p>Detailed analysis of strengths and weaknesses of each draft. Identifies best elements to keep and gaps across all three. Defines what the super-book needs.</p>
+      <span class="tag tag-critique">Critique</span>
+      <br><a href="iterations/iter1/critique_iter1.md">View Critique</a>
+    </div>
+  </div>
+</section>
+
+<!-- ITERATION 2 -->
+<section>
+  <div class="iter-header">
+    <h2>ITERATION 2: Refined Synthesis</h2>
+    <span class="status status-done">COMPLETE</span>
+  </div>
+  <p style="color:var(--dim);margin-bottom:20px;">Merged the best of all three drafts. Added continuous Disneyland thread, deepened Elena, added dark humor, expanded pop culture markers, and added new scenes (Jewell encounter, Tupac, Friends taping).</p>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Research Plan (Iter 2)</h3>
+      <p>Gaps identified from Iteration 1 critique. USC detail, Disneyland texture, KNBC specifics, pop culture deep cuts.</p>
+      <span class="tag tag-research">Research</span>
+      <br><a href="iterations/iter2/research_plan_iter2.md">View Plan</a>
+    </div>
+    <div class="card">
+      <h3>Super-Book v2</h3>
+      <p>30-chapter refined outline. Continuous Disneyland thread, Elena's father chapter, "The Rachel" running gag, Danny the screenwriter, probation as weapon, Tupac as cultural moment.</p>
+      <span class="tag tag-super">Synthesis</span>
+      <br><a href="iterations/iter2/superbook_iter2.md">View Super-Book v2</a>
+    </div>
+    <div class="card">
+      <h3>Iteration 2 Critique</h3>
+      <p>Identified remaining gaps: Denton's silencing, election night scene, Whitfield expansion, Frank airport call, sensory detail, author's note.</p>
+      <span class="tag tag-critique">Critique</span>
+      <br><a href="iterations/iter2/critique_iter2.md">View Critique</a>
+    </div>
+  </div>
+</section>
+
+<!-- ITERATION 3 -->
+<section>
+  <div class="iter-header">
+    <h2>ITERATION 3: Final Polish</h2>
+    <span class="status status-done">COMPLETE</span>
+  </div>
+  <p style="color:var(--dim);margin-bottom:20px;">Final refinement with all critique fixes applied. Added sample prose passages, expanded Whitfield scene, Denton's financial destruction, election night at KNBC, Frank's airport call, fictional Author's Note.</p>
+  <div class="card-grid">
+    <div class="card">
+      <h3>Super-Book v3 (Final Iteration)</h3>
+      <p>The definitive 30-chapter outline with full character profiles, 5 sample prose passages, 17 journalism insights, thematic architecture, and the complete evidence chain.</p>
+      <span class="tag tag-super">Synthesis</span>
+      <br><a href="iterations/iter3/superbook_iter3.md">View Super-Book v3</a>
+    </div>
+  </div>
+</section>
+
+<!-- FINAL -->
+<section>
+  <div class="iter-header">
+    <h2>FINAL DELIVERABLE</h2>
+    <span class="status status-done">COMPLETE</span>
+  </div>
+  <div class="card-grid">
+    <div class="card" style="border: 2px solid var(--gold);">
+      <h3 style="color:var(--gold);">The Peacock Conspiracy - Definitive Outline</h3>
+      <p>Publisher-ready outline. 30 chapters across 3 acts. Deep character profiles, scene-level specificity, sample prose, 17 journalism insights, deliberate ambiguity in the conspiracy, thematic architecture mapping the peacock metaphor, fictional Author's Note, and the family crest epilogue.</p>
+      <span class="tag tag-final">FINAL DELIVERABLE</span>
+      <br><a href="iterations/final/the_peacock_conspiracy_final.md" style="background:rgba(255,215,0,0.15);border-color:var(--gold);color:var(--gold);">View Final Outline</a>
+    </div>
+  </div>
+</section>
+
+<!-- ARTIFACT INVENTORY -->
+<section>
+  <h2>COMPLETE ARTIFACT INVENTORY</h2>
+  <div class="card">
+    <table>
+      <tr><th>#</th><th>Artifact</th><th>Phase</th><th>Path</th></tr>
+      <tr><td>1</td><td>Original Novel Brief</td><td>Foundation</td><td>prompt.md.txt</td></tr>
+      <tr><td>2</td><td>Research Catalog (HTML, 300+ facts)</td><td>Research</td><td>research/research_catalog.html</td></tr>
+      <tr><td>3</td><td>Draft A: Thriller Approach</td><td>Iteration 1</td><td>iterations/iter1/draft_a_thriller.md</td></tr>
+      <tr><td>4</td><td>Draft B: Literary Approach</td><td>Iteration 1</td><td>iterations/iter1/draft_b_literary.md</td></tr>
+      <tr><td>5</td><td>Draft C: Journalism Approach</td><td>Iteration 1</td><td>iterations/iter1/draft_c_journalism.md</td></tr>
+      <tr><td>6</td><td>Iteration 1 Critique</td><td>Iteration 1</td><td>iterations/iter1/critique_iter1.md</td></tr>
+      <tr><td>7</td><td>Super-Book v1 (Synthesis)</td><td>Iteration 1</td><td>iterations/iter1/superbook_iter1.md</td></tr>
+      <tr><td>8</td><td>Iteration 2 Research Plan</td><td>Iteration 2</td><td>iterations/iter2/research_plan_iter2.md</td></tr>
+      <tr><td>9</td><td>Super-Book v2 (Refined)</td><td>Iteration 2</td><td>iterations/iter2/superbook_iter2.md</td></tr>
+      <tr><td>10</td><td>Iteration 2 Critique</td><td>Iteration 2</td><td>iterations/iter2/critique_iter2.md</td></tr>
+      <tr><td>11</td><td>Super-Book v3 (Final Iteration)</td><td>Iteration 3</td><td>iterations/iter3/superbook_iter3.md</td></tr>
+      <tr><td>12</td><td style="color:var(--gold);font-weight:bold;">THE PEACOCK CONSPIRACY - Definitive Outline</td><td style="color:var(--gold);">FINAL</td><td>iterations/final/the_peacock_conspiracy_final.md</td></tr>
+    </table>
+  </div>
+</section>
+
+</div>
+
+<footer>
+  <p>The Peacock Conspiracy - Novel Development Project</p>
+  <p style="font-size:0.85em;">Iterative process: Research &rarr; Draft &rarr; Critique &rarr; Synthesize &rarr; Repeat</p>
+</footer>
+
+</body>
+</html>
